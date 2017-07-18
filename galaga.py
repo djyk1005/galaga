@@ -58,8 +58,8 @@ def gameLoop():
                     dx = 0
                 if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
                     dy = 0
-        sx + dx
-        sy + dy
+        sx += dx
+        sy += dy
         # render
         gameDisplay.fill(white)
         pygame.draw.rect(gameDisplay, black, [sx, sy, 10, 10])
